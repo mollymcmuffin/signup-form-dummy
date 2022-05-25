@@ -8,16 +8,13 @@ body{
     margin: 0;
     height: 100vh;
     justify-content: space-around;
+    overflow: scroll;
 }
 
 .sidebar{
-    background-image: url("images/parej-richard-6u8LqCyRqLg-unsplash.jpeg");
-    flex-grow: 1;
+    
     width:40vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+    
     
 }
 
@@ -27,7 +24,11 @@ body{
     background-color: rgba(108, 122, 137, 0.8);
     padding:16px;
     font-size: 2rem;
-
+    position: relative;
+    top: -70vh;
+    text-align: center;
+    
+    
 }
 
 
@@ -66,7 +67,7 @@ input:valid{
 }
 
 .content{
-    background-color: beige;
+    background-color: rgb(234, 212, 169);
     display: flex;
     flex-direction: column;
     
@@ -96,4 +97,9 @@ input{
     padding: 0;
     margin:0;
     font-size: small;
+}
+
+img{
+    height: 100vh;
+    margin-bottom: -100px;
 }
