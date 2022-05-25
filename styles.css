@@ -92,3 +92,8 @@ input{
     border-radius: 15px;
 }
 
+#message{
+    padding: 0;
+    margin:0;
+    font-size: small;
+}
