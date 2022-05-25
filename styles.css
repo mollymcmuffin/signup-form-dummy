@@ -1,0 +1,94 @@
+div {
+    
+}
+
+body{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    justify-content: space-around;
+}
+
+.sidebar{
+    background-image: url("images/parej-richard-6u8LqCyRqLg-unsplash.jpeg");
+    flex-grow: 1;
+    width:40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+
+.logo{
+    color: white;
+    background-color: rgba(108, 122, 137, 0.8);
+    padding:16px;
+    font-size: 2rem;
+
+}
+
+
+.container{
+    display:flex;
+    
+    padding: 0 2rem;
+}
+
+.container > div{
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    padding: 1rem;
+    margin-right: 1rem;
+}
+
+button{
+    margin: 2rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.already{
+    margin-left: 2rem;
+}
+
+input:invalid{
+    border-color: red;
+}
+
+input:valid{
+    border-color: green;
+}
+
+.content{
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+form{
+    background-color: white;
+}
+
+div.content > p{
+    height: 20vh;
+    padding: 3rem;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+caption{
+    font-size: large;
+}
+
+input{
+    border-style: solid;
+    border-radius: 15px;
+}
+
